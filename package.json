@@ -1,11 +1,8 @@
 {
   "name": "@klevn/solid-brick",
-  "version": "1.0.5",
+  "version": "2.0.5",
   "description": "",
   "main": "brick.tsx",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
