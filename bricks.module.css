@@ -1,0 +1,87 @@
+.heading {
+    font-size: 3.8rem;
+}
+
+
+.subHeading {
+    font-size: 1.8rem; 
+}
+
+.text {
+    font-size: 1rem;
+}
+
+.container {
+    padding: 5rem 10vw 5rem 10vw;
+}
+
+.horizontalLayout {
+    flex-direction: row;
+}
+
+.verticalLayout {
+    flex-direction: column;
+}
+
+
+.imageAdaptive {
+    min-width: 50%;
+}
+
+.imageAdaptive img {
+    height: auto;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.imageContainer {
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: auto;
+}
+
+
+
+.videoEmbed {
+    aspect-ratio: 16 / 9;
+}
+
+.wrapLayout {
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1300px) {
+
+}
+
+
+
+@media screen and (max-width: 1100px) {
+
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .container {
+        /* Overwriting element.style */
+        padding: 2.5rem 5vw 2.5rem 5vw !important;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+}
+
+
+
+@media screen and (max-width: 300px) {
+
+}

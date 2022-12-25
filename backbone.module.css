@@ -1,0 +1,105 @@
+.categoryLayout, .categoryImage, .categoryVideo {
+    display: flex;
+    flex: 1;
+}
+
+
+.alignStart.categoryLayout {
+    align-items: flex-start;
+}
+/*
+.alignStart.ctext {
+    text-align: left;
+}
+.alignStart.cimage {
+    background-position: left;
+}
+*/
+
+.alignEnd.categoryLayout {
+    align-items: flex-end;
+}
+
+/*
+.alignEnd.ctext {
+    text-align: right;
+}
+.alignEnd.cimage {
+    background-position: right;
+}
+*/
+
+
+.alignCenter.categoryLayout {
+    align-items: center;
+}
+
+/*
+.alignCenter.ctext {
+    text-align: center;
+}
+.alignCenter.cimage {
+    background-position: center;
+}
+*/
+
+
+
+.alignStretch.categoryLayout {
+    align-content: stretch;
+}
+
+
+
+
+.justifyStart.categoryLayout {
+    justify-content: flex-start;
+
+    text-align: start;
+}
+/*
+.justifyStart.ctext {
+    vertical-align: text-top;
+}
+.justifyStart.cimage {
+    background-position: top;
+}
+*/
+
+
+.justifyEnd.categoryLayout {
+    justify-content: flex-end;
+    text-align: end;
+}
+
+/*
+.justifyEnd.ctext {
+    vertical-align: text-bottom;
+}
+.justifyEnd.cimage {
+    background-position: bottom;
+}
+*/
+
+
+.justifyCenter.categoryLayout {
+    justify-content: center;
+    text-align: center;
+}
+
+/*
+.justifyCenter.ctext {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.justifyCenter.cimage {
+    background-position: center;
+}
+*/
+
+
+
+.justifyStretch.categoryLayout {
+    justify-content: stretch;
+}
